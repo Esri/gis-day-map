@@ -1,6 +1,6 @@
 # gis-day-map
 
-A simple map you can use to search for GIS Day events around the world. Share it with your friends or just use the code to learn how to build your own fun and interactive mapping apps. It uses [esri-leaflet](https://github.com/Esri/esri-leaflet) to cluster points and the [esri-leaflet-geocoder](https://github.com/Esri/esri-leaflet-geocoder) to dynamically search an [ArcGIS Hosted Feature Service](https://developers.arcgis.com/en/features/cloud-storage/) and the [Esri World Geocoding Service](https://developers.arcgis.com/en/features/geocoding/) at the same time and [ArcGIS basemaps](http://www.arcgis.com/features/maps/index.html). The entire app is only about 150 lines of JavaScirpt code!
+A simple map you can use to search for GIS Day events around the world. Share it with your friends or just use the code to learn how to build your own fun and interactive mapping apps. The entire app is only about 150 lines of JavaScirpt code!
 
 [View it live](http://esri.github.com/gis-day-map/index.html)
 
