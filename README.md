@@ -41,7 +41,7 @@ NOTE: You should just be able to cut-and-paste and run it in JSFiddle!
     });
 
     // Create cluster layer from GIS Day data in AGOL
-    clusterLayer = L.esri.clusteredFeatureLayer('http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/gisdayapp/FeatureServer/0', 
+    clusterLayer = L.esri.clusteredFeatureLayer('http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/gisdaydata/FeatureServer/0', 
     {
         spiderfyOnMaxZoom: true,
         showCoverageOnHover: false,
@@ -134,7 +134,7 @@ NOTE: You should just be able to cut-and-paste and run it in JSFiddle!
       placeholder: "Search for event name, host or location",
       useMapBounds: false,
       providers: [
-            new L.esri.Geocoding.Controls.Geosearch.Providers.FeatureLayer('http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/gisdayapp/FeatureServer/0', {
+            new L.esri.Geocoding.Controls.Geosearch.Providers.FeatureLayer('http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/gisdaydata/FeatureServer/0', {
           searchFields: ['Name', 'Organization'],
           label: 'GIS Day Events',
           bufferRadius: 5000,
