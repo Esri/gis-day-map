@@ -170,14 +170,12 @@ NOTE: You should just be able to cut-and-paste and run it in JSFiddle!
 
 Find a bug or want to request a new feature?  Please let us know by submitting an issue.  Thank you!
 
-* Directions - Uses OAuth and requires you to sign up for a [free ArcGIS Developer Subscription](https://developers.arcgis.com/en/sign-up/) to use the app.
-
 ## Contributing
 
 Anyone and everyone is welcome to contribute. Please see our [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Licensing
-Copyright 2013 Esri
+Copyright 2014 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
